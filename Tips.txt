@@ -1,0 +1,23 @@
+Git init -> To initialze git 						//git initialization
+Git status -> to see your files are at, are they added or not.
+
+Git add 'files' -> to add your files in staging area.			//staging
+
+Git commit -m "message" -> to add your files in repository.
+Git log -> to check about commited files.				//adding in repositories
+
+
+
+git diff -> to tell you in which files some changes have 
+	    been made and what changes have been made.
+
+git checkout "file"-> to get back previous files
+
+git rm --cached -r . -> used it for deleting all files from staging
+
+// for remote repo
+git remote add origin "url of remote repo on github" -> create a remote repository
+
+git push -u origin master -> u flag/option is basically link up your remote and your repository,
+			     this line code pushes your local repo to remote repo using u flag,
+			     We're going to push local repo towards remore named origin and push it to the branch master
